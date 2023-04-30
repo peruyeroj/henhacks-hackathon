@@ -39,13 +39,18 @@ h2 {
 .container{
   display:flex;
   justify-content: center;
-  border-radius: 10px 20px 30px 40px;
 }
 
 img{
-  margin:auto;
+  border-radius: 10px 20px 30px 40px;
 }
 
 body{
   background-color:#33ccff;
 }
+
+.container1{
+  display:flex;
+  justify-content:center;
+}
+
