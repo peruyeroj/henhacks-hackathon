@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+.taskbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  width: 100%;
+}
+
+.taskbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.taskbar li {
+  margin-right: 10px;
+}
+
+.taskbar li:last-child {
+  margin-right: 0;
+}
+
+.taskbar a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+img{
+  margin:auto;
+}
+
+body{
+  background-color:#33ccff;
+}
